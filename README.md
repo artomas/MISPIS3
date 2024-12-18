@@ -86,8 +86,10 @@ Course
   addLecturer(lecturer: Lecturer)
 
 
-5,6: Генерация кода (на языке Python) и его компиляция. Местоположение - https://github.com/artomas/MISPIS3ATT
+5,6: Генерация кода (на языке Python) и его компиляция + Unit тест. Местоположение - https://github.com/artomas/MISPIS3ATT
 ![image](https://github.com/user-attachments/assets/dc2dbea0-e396-4c7c-80b3-eef61fb12a5d)
+![image](https://github.com/user-attachments/assets/0632bbb6-36d9-48dc-a42f-393ba7cc6885)
+
 
 7:Обратный инженеринг и генерация модели
 ![image](https://github.com/user-attachments/assets/35845172-5e0c-45d4-8e75-2b740a682901)
@@ -102,3 +104,8 @@ Course
 Диаграмма состояний
 ![image](https://github.com/user-attachments/assets/2dff3fb8-a3fa-4d2c-b650-b8f56103b5f4)
 
+Результат:
+Спроектирована и реализована информационная система с применением UML моделирования.
+Получены статические и поведенческие диаграммы, демонстрирующие структуру и логику работы системы.
+Создан объектно-ориентированный код, проверенный на работоспособность.
+Применены принципы обратного проектирования для верификации разработанной модели.
