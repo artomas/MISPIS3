@@ -4,51 +4,17 @@
 
 1: Идентификация классов
 
-University
-Faculty
-Institute
-Dean
-Employee
-ResearchEmployee
-AdministrativePersonal
-Project
-Course
-Lecturer
+University, Faculty, Institute, Dean, Employee, ResearchEmployee, AdministrativePersonal, Project, Course, Lecturer
 
 2: Идентификация атрибутов
-University
-  name
-
-Faculty
-  name
-
-Institute
-  name
-  address
-
-Dean
-  name
-  socialSecurityNumber
-  e-mail
-  
-Employee
-  socialSecurityNumber
-  name
-  e-mail
-
-ResearchEmployee
-  researchArea
-
-Project
-  name
-  hours
-  startingDate
-  endDate
-
-Course
-  id
-  name
-  weeklyDuration
+University: name;
+Faculty: name;
+Institute: name, address;
+Dean: name, socialSecurityNumber, e-mail;
+Employee: socialSecurityNumber, name, e-mail;
+ResearchEmployee: researchArea;
+Project: name, hours, startingDate, endDate;
+Course: id, name, weeklyDuration;
 
 3: Идентификация отношений
 University → Faculty
